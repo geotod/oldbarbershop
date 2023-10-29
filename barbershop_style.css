@@ -1,0 +1,234 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+@font-face{
+	font-family: 'Alvaro-Condensed';
+	src: url('Alvaro-Condensed.otf') format('truetype');
+}
+body{
+	overflow-x:hidden;
+	background-color:black;
+}
+.fade-in{
+	opacity:0;
+}
+.fade-in-serv{
+	opacity:0;
+}
+@font-face{
+	font-family: 'Roboto Light';
+	src: url('Roboto-Light.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Roboto Regular';
+	src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+nav{
+	align-items:center;
+	background-color:#121212;
+	padding-bottom:3vh;
+}
+
+main .content{
+	background-image: url('wood.jpg');
+	padding: 5vh 0 5vh 0;
+}
+
+.text_content a:hover{
+	color:white;
+}
+
+nav .logo a{
+	text-decoration:none;
+	font-size:50px;
+	font-family: 'Alvaro-Condensed';
+	color:white;
+}
+.content .text_content{
+	text-align:center;
+}
+.content h1{
+	font-family: 'Roboto Light';
+	color:white;
+}
+.content h1, a{
+	font-weight:lighter;
+}
+.content a{
+	font-family: 'Roboto Regular';
+	text-decoration:none;
+	color:gray;
+	display:inline-block;
+}
+.welcome_content{
+	padding: 5vh 0 5vh 0;
+	background-color:#121212;
+	text-align:center;
+	font-family:'Roboto Regular';
+	color:white;
+}
+.welcome_content h1{
+	padding-bottom:3vh;
+}
+.welcome_content p{
+	color:gray;
+}
+@media screen and (min-width:551px) and (max-width:900px){
+	*{
+		overflow-x:hidden;
+	}
+	#sld{
+		min-width:40vw;
+		max-height:100%;
+		margin-left:5vw;
+		border:1px solid darkgray;
+		margin-top:5.5vh;
+	}
+
+	.carousel-inner .carousel-item img{
+		height:500px;
+		width:200px;
+
+	}
+	.place_desc{
+		margin-right:1vw;
+		font-size:20px;
+	}
+	.intro .barber_image img{
+		max-width:30%;
+		min-height:70%;
+	}
+	
+	.map iframe{
+		min-width:100vw;
+		min-height:50vh;
+	}
+}
+@media screen and (min-width: 901px){
+	#sld{
+		max-width:30vw;
+		max-height:100%;
+		margin-left:5vw;
+		border:1px solid darkgray;
+		margin-top:5.5vh;
+	}
+
+	.carousel-inner .carousel-item img{
+		height:500px;
+		width:200px;
+
+	}
+	.place_desc{
+		margin-right:8vw;
+		font-size:20px;
+		margin-top:3vh;
+	}
+	.intro .barber_image img{
+		max-width:30%;
+		min-height:70%;
+	}
+	.map iframe{
+		min-width:100vw;
+		min-height:50vh;
+	}
+}
+@media screen and (max-width:550px){
+	*{
+		overflow-x:hidden;
+	}
+	.carousel-inner .carousel-item img{
+		height:400px;
+		width:200px;
+	}
+	.intro .barber_image img{
+		max-width:70%;
+		max-height:70%;
+	}
+	
+	.map iframe{
+		min-width:100vw;
+		min-height:70vh;
+	}
+}
+.main_content{
+	background-color:black;
+	padding-bottom:6vh;
+}
+.place_desc{
+	text-align:center;
+	padding-top:5vh;
+	font-family:'Roboto Regular';
+	color:gray;
+}
+.place_desc h4{
+	margin-bottom:4vh;
+	color:#b29c12;
+}
+.service_image1, .service_image2, .service_image3{
+	background-size:contain;
+	width:200px;
+	height:200px;
+}
+.service_image1{
+	background-image:url('hair.jpg');
+}
+
+.service_image2{
+	background-image:url('beard.jpg');
+}
+
+.service_image3{
+	background-image:url('mask.jpg');
+}
+.services .row .col-md-4{
+	display:flex;
+	justify-content:center;
+}
+.service_title1, .service_title2, .service_title3{
+	text-align:center;
+	color:#b29c12;
+}
+.service_image1, .service_image2, .service_image3{
+	margin: 3vh 0 3vh 0;
+	border-radius:100px;
+}
+.services{
+	background-color:#121212;
+	color:white;
+	padding-top:5vh;
+	padding-bottom:5vh;
+}
+.services h6{
+	overflow:hidden;
+}
+.service1, .service2, .service3{
+	padding: 1vw 3vw 1vw 3vw;
+	margin-bottom:4vh;
+	background-color:black;
+	border:3px solid;
+	border-color:#584d09;
+}
+
+
+footer h5{
+	text-align:center;
+	color:#b29c12;
+	overflow:hidden;
+}
+footer p{
+	text-align:center;
+	color:white;
+	font-size:14px;
+}
+footer{
+	padding-top:5vh;
+	padding-bottom:5vh;
+	background-color:black;
+}
+.social_media{
+	display:flex;
+	justify-content:center;
+}
